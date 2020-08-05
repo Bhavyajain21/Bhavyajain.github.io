@@ -234,7 +234,7 @@ font-size: 30px;
         }
         .hobbies .inner div{
             float: left;
-            width: 100%;
+            width: 490px;
             border-bottom:2px solid black;
             background: -webkit-linear-gradient(top,rgb(88, 74, 74),rgb(99, 22, 22));
         }
