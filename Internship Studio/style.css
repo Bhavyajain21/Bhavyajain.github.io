@@ -172,7 +172,10 @@ font-size: 30px;
     .about{
         width: 490px;
         height: 100vh;
-        
+        padding: 10px;
+    }
+    .education{
+        width: 490px;
     }
     .home img{
         width: 130px;
@@ -226,7 +229,9 @@ font-size: 30px;
             
             width: 490px;
         }
-     
+        .hobbies .inner{
+            margin: 0 auto;
+        }
         .hobbies .inner div{
             float: left;
             width: 100%;
