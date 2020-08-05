@@ -224,17 +224,15 @@ font-size: 30px;
             font-size: 50px;
             text-align: center;
         }
-
         .hobbies{
-            
             width: 490px;
         }
         .hobbies .inner{
-            margin: 0 auto;
+            width: 490px;
         }
         .hobbies .inner div{
             float: left;
-            width: 490px;
+            width: 100%;
             border-bottom:2px solid black;
             background: -webkit-linear-gradient(top,rgb(88, 74, 74),rgb(99, 22, 22));
         }
