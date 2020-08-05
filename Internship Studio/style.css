@@ -229,6 +229,7 @@ font-size: 30px;
         }
         .hobbies .inner{
             width: 490px;
+            padding: 30px;
         }
         .hobbies .inner div{
             float: left;
