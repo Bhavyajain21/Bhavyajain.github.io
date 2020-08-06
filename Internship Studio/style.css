@@ -5,14 +5,14 @@
     color: bisque;
     font-family: 'ubuntu',sans-serif;
 }
-nav ul li{
+nav #nav ul li{
     list-style-type: none;
     display: inline-block;
     padding-right: 40px;
     
     
 }
-nav ul{
+nav #nav ul{
     float: right;
     margin-top:15px;
     -webkit-box-align: center;
@@ -23,11 +23,11 @@ nav{
     height: 50px;
     background-color:#ed6663;
 }
-nav ul li a{
+nav #nav ul li a{
     text-decoration: none;
     color: white;
 }
-a:hover{
+nav #nav ul li a:hover{
     text-decoration: underline;
     
 }
@@ -52,7 +52,8 @@ section{
     border: 2px solid white;
     border-radius: 100%;
 }
-.home p{
+.home h1{
+    font-size: 55px;
     font-family: 'ubuntu',sans-serif;
     margin: 0em;
     padding: 0em;
@@ -77,6 +78,7 @@ section{
     float: left;
 }
 .about .inner h1{
+    margin-top: 20px;
     padding:20px;
     font-size:48px;
     
@@ -132,6 +134,7 @@ section{
    margin-bottom: 20px;
 }
 .skills{
+    
     background-image: url('wallpaper.png');
     background-repeat: no-repeat;
     background-size: cover ;
@@ -139,15 +142,20 @@ section{
 }
 
 .skills .inner h1{
+    padding-left: 50px;
+    color: black;
     margin-top: 10%;
     font-size: 55px;
 }
 .skills .inner div ul li{
+    
+    color: black;
 list-style-type: none;
 padding: 20px;
 
 
 font-size: 30px;
+font-weight: bolder;
 }
 
 .contact .inner div {
@@ -163,7 +171,7 @@ font-size: 30px;
     nav{
         height:140px;
     }
-    nav ul li{
+    nav #nav ul li{
         padding: 20px;
     }
     .home{
@@ -182,7 +190,7 @@ font-size: 30px;
         height: 170px;
         margin-top: 150px;
     }
-    .home p{
+    .home h1{
         font-size: 29px;
     }
     .about .inner p{
@@ -195,6 +203,7 @@ font-size: 30px;
     .education .inner div{
         margin-left: auto;
         margin-right: auto;
+       
         float: left;
         width: 100%;
         border-bottom: 2px solid black;
