@@ -263,7 +263,7 @@ font-size: 30px;
                 width: 890px;
             }
             .about{
-                width: 590px;
+                width: 890px;
             }
             .home img{
                 margin-top: 90px;
@@ -276,7 +276,7 @@ font-size: 30px;
                 font-size:45px;
             }
             .education{
-                width: 590px;
+                width: 890px;
             }
             .education .inner div{
                 margin-left: auto;
@@ -297,7 +297,7 @@ font-size: 30px;
                     border-bottom:2px solid white;
                 }
                 .skills{
-                    width: 590px;
+                    width: 890px;
                     background-image: none;
                     background-color: black;
                     height: 100%;
@@ -313,7 +313,7 @@ font-size: 30px;
         
                 .hobbies{
                     
-                    width: 590px;
+                    width: 890px;
                 }
              
                 .hobbies .inner div{
@@ -329,7 +329,7 @@ font-size: 30px;
                     text-decoration: underline;
                 }
                 .contact{
-                    width: 590px;
+                    width: 890px;
                 }
                 .contact p{
                     border: 2px dashed black;
