@@ -21,7 +21,7 @@ nav{
     width: 100%;
     position: fixed;
     height: 50px;
-    background-color:#ed6663;
+    background-color:#d92027;
 }
 nav ul li a{
     text-decoration: none;
@@ -61,14 +61,14 @@ section{
 }
 .about{
     width: 100%;
-    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSf6Odc0YF1O4mkq4X3QxkOG1QcYrhydxRUbw&usqp=CAU");
+    background-color: #a05b3f;
     background-repeat: no-repeat;
     background-size:cover;
     height: 100vh;
     display: table;
 }
 .about .inner{
-    background-color: rgba(243, 176, 151,0.5);
+    background-color: rgba(243, 176, 151,0.2);
     display: table-cell;
     vertical-align: middle;
     padding: 20px;
@@ -79,7 +79,7 @@ section{
 .about .inner h1{
     padding:20px;
     font-size:48px;
-    
+    margin-top: 30px;
 }
 .about .inner p{
     line-height: 150%;
@@ -121,7 +121,13 @@ section{
     font-size: 130%;
     padding: 50px;
 }
-
+.education .inner{
+    width: 100%;
+}
+.education .inner div{
+    width: 49%;
+    float: left;
+}
 .hobbies .inner div p,.contact .inner div p{
    line-height: 150%;
     font-size: 36px;
@@ -137,10 +143,13 @@ section{
     background-size: cover ;
     background-position:0 -60px;
 }
-
+.skills .inner{
+    background-color: rgba(150, 117, 48, 0.5);
+}
 .skills .inner h1{
-    margin-top: 10%;
+    
     font-size: 55px;
+    padding-left: 80px;
 }
 .skills .inner div ul li{
 list-style-type: none;
